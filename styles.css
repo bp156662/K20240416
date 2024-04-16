@@ -21,9 +21,9 @@ footer{
 }
 
 header{
-    background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    background-color: rgb(248, 53, 248);
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
     font-size: xx-large;
     text-align: center;
 }
@@ -38,11 +38,11 @@ eine Class wird in der styles.css immer mit einem führenden Punkt dargestellt.*
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;    
+    background-color: rgb(255, 30, 255);  
   }
   /* Der folgende Style wirkt auf ale DIVs innerhalb eines flex-containers*/
   .flex-container > div {
-    background-color: #1ee481;
+    background-color: rgb(253, 30, 97);
     width: 100%;
     margin: 10px;
     text-align: center;
